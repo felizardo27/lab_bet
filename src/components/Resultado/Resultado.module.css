@@ -1,0 +1,34 @@
+.container {
+  margin-top: 10px;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #462B8D;;
+  border-radius: 15px;
+}
+
+.container__title {
+  background-color: #462B8D;
+  width: 100%;
+  text-align: center;
+  padding: 8px 0;
+  color: #fff;
+  border-radius: 15px 15px 0 0;
+}
+
+.container__title p {
+  display: inline;
+  font-style: italic;
+}
+
+.title {
+  color: #1EF2DA;
+}
+.container__resultado {
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
+  background-color: #2E1E70;
+}

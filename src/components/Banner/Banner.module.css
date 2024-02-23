@@ -1,0 +1,12 @@
+.container {
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Banner {
+  width: 400px;
+  max-height: 450px;
+  
+}
