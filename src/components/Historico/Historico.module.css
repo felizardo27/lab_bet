@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 15px auto;
+  width: 400px;
+}
+
+.input {
+  width: 380px;
+  height: 50px;
+  border-color: #2E1E70;
+  border-width: 5px;
+  border-radius: 15px;
+  border-style: solid;
+  font-size: 35px;
+}
+
+.container__p_left {
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  color: #fff;
+  align-self: flex-start;
+  margin-left: 6px;
+  margin-bottom: -6px;
+  background-color: #2E1E70;
+  border-radius: 10px 10px 0px 0px;
+  padding: 7px;
+}
+
+.container__p_right {
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  color: #fff;
+  align-self: flex-end;
+  margin-right: 6px;
+  margin-bottom: -6px;
+  background-color: #2E1E70;
+  border-radius: 10px 10px 0px 0px;
+  padding: 7px;
+}
