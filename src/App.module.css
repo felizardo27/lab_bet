@@ -1,6 +1,52 @@
 .container {
   display: flex;
   align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.container_form_result {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.container_resultado {
+  display: flex;
+  align-items: center;
   justify-content: center;
   gap: 5px;
+}
+
+@media screen and (min-width: 900px) {
+  .container_form_result {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  .container_historico {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+
+@media screen and (min-width: 1224px) {
+  .container {
+    flex-direction: row;
+  }
+
+  .container_form_result {
+    display: flex;
+    justify-content: space-evenly;
+    width: 65%;
+  }
+
+  .container_historico {
+    flex-direction: column;
+  }
 }

@@ -8,13 +8,19 @@ function App() {
   return (
     <>
       <Banner />
-      <Form />
       <div className={styles.container}>
-        <Resultado title={'Dúzias'} />
-        <Resultado title={'Coluna'} />
+        <div className={styles.container_form_result}>
+          <Form />
+          <div className={styles.container_resultado}>
+            <Resultado title={'Dúzias'} />
+            <Resultado title={'Coluna'} />
+          </div>
+        </div>
+        <div className={styles.container_historico}>
+          <Historico left={true} hist={'Dúzias'} />
+          <Historico hist={'Colunas'} />
+        </div>
       </div>
-      <Historico left={true} hist={'Dúzias'} />
-      <Historico hist={'Colunas'} />
     </>
   );
 }
