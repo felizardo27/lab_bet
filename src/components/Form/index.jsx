@@ -13,9 +13,18 @@ export default function Form() {
       </div>
 
       <div className={styles.form}>
-        <input type="number" name="number" id="number" className={styles.input}/>
-        <a href="#" className={styles.button}>Enviar</a>
-        <a href="#" className={styles.button}>Limpar</a>
+        <input
+          type="number"
+          name="number"
+          id="number"
+          className={styles.input}
+        />
+        <a href="#" className={styles.button}>
+          Enviar
+        </a>
+        <a href="#" className={styles.button_outline}>
+          Limpar
+        </a>
       </div>
     </div>
   );

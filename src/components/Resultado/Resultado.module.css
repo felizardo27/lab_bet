@@ -16,6 +16,8 @@
   padding: 8px 0;
   color: #fff;
   border-radius: 15px 15px 0 0;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
 }
 
 .container__title p {
@@ -26,6 +28,7 @@
 .title {
   color: #1EF2DA;
 }
+
 .container__resultado {
   height: 100%;
   width: 100%;
