@@ -92,4 +92,10 @@
 
 .button:active {
   background-color: #16a090;
+  transition: 0.5s;
+}
+
+.button_outline:active {
+  background-color: #16a090;
+  transition: 0.5s;
 }

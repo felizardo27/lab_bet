@@ -40,3 +40,43 @@
   border-radius: 10px 10px 0px 0px;
   padding: 7px;
 }
+
+@media screen and (min-width: 900px) {
+  .container {
+    width: 800px;
+  }
+  
+  .input {
+    width: 800px;
+  }
+
+  .container__p_left {
+    margin-left: -1px;
+    margin-bottom: -6px;
+  }
+  
+  .container__p_right {
+    margin-right: -1px;
+    margin-bottom: -6px;
+  }
+}
+
+@media screen and (min-width: 1224px) {
+  .container {
+    width: 400px;
+  }
+  
+  .input {
+    width: 380px;
+  }
+
+  .container__p_left {
+    margin-left: 6px;
+    margin-bottom: -6px;
+  }
+  
+  .container__p_right {
+    margin-right: 6px;
+    margin-bottom: -6px;
+  }
+}

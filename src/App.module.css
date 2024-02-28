@@ -27,11 +27,7 @@
     gap: 10px;
   }
 
-  .container_historico {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+  
 }
 
 
@@ -48,5 +44,11 @@
 
   .container_historico {
     flex-direction: column;
+  }
+  
+  .container_historico {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
